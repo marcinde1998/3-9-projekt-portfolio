@@ -288,16 +288,14 @@ label[for="drop-nav"]{
     }
     .main-menu ul{
         display: none;
-    }
-    
-    #drop-nav:checked + ul{
-        display: block;
-    }
-    
-    .main-menu ul{
-        display: block;
         text-align: right;
         margin: 0;
     }
+    
+    #drop-nav + ul{
+        display: block;
+    }
+    
+    
     
 }
