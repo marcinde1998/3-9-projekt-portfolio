@@ -92,7 +92,7 @@ section{
     background-color: #007bff;
 }
 
-#drop-nav:checked{
+#drop-nav{
     display: none;
 }
 
@@ -249,6 +249,7 @@ label[for="drop-nav"]{
     .container{
         max-width: 768px;
     }
+    
     .portfolio-wrapper .portfolio-item{
         flex-basis: 50%;
     }
@@ -258,6 +259,7 @@ label[for="drop-nav"]{
     .container{
         max-width: 95%;
     }
+
     .portfolio-wrapper .portfolio-item{
         flex-basis: 100%;
     }
@@ -267,10 +269,12 @@ label[for="drop-nav"]{
     .main-header .main-header-content h1{
         font-size: 3em;
     }
+
     .about .about-img{
         max-height: 200px;
         max-width: 200px;
     }
+
     .contact input[type=text],
     .contact input[type=email]{
         flex-basis: 100%;
@@ -292,10 +296,13 @@ label[for="drop-nav"]{
         margin: 0;
     }
     
-    #drop-nav + ul{
+    #drop-nav:checked + ul{
         display: block;
     }
     
-    
-    
+    .main-menu ul .menu-item{
+        display: block;
+        text-align: right;
+        margin: 0;
+    }
 }
